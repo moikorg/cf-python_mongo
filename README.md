@@ -1,17 +1,18 @@
 Sample Python Web application connecting to MongoDB
 ===================================================
 
-The sample is using [Flask microframework](http://flask.pocoo.org/) and mongoengine. It is intented to test the Python support on [Pivotal's Cloud Foundry](https://run.pivotal.io/).
+The sample is using [Flask microframework](http://flask.pocoo.org/) and mongoengine. It is intented to test the Python
+support on [Pivotal's Cloud Foundry](https://run.pivotal.io/).
 
-The script tries to get the environment information to know how to connect to the MongoDB. It reads the VCAP_SERVICES information
-and looks for the MongoDB information.
+The script tries to get the environment information to know how to connect to the MongoDB. It reads the
+**VCAP_SERVICES** information and looks for the MongoDB information.
 
 The script writes some dummy information to the database.
 
 The web application listens to the following URLs
-../env
-../cred
-../<username>/show --> where <username> is one of the dummy information username (e.g. donald, dagobert, ... see the code)
+* ../env
+* ../cred
+* ../<username>/show --> where <username> is one of the dummy information username (e.g. donald, dagobert, ... see the code)
 
 Deploy to Cloud Foundry
 -----------------------
