@@ -12,7 +12,7 @@ The script writes some dummy information to the database.
 The web application listens to the following URLs
 * ../env
 * ../cred
-* ../<username>/show --> where <username> is one of the dummy information username (e.g. donald, dagobert, ... see the code)
+* ../_username_/show --> where _username_ is one of the dummy information username (e.g. donald, dagobert, ... see the code)
 
 Deploy to Cloud Foundry
 -----------------------
