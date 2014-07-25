@@ -25,3 +25,7 @@ other buildpacks for Python also exists, but hasn't been tested here.
 
 The runtime.txt file contains the needed Python version and the requirements.txt files contains the Python library which
 has to been loaded and installed by CF.
+
+Have fun with Python and MongoDB on cloudfoundry!!
+
+  Cheers, Mike
